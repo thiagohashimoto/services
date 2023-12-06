@@ -36,11 +36,6 @@ export class CardComponent {
             sprites: res.sprites,
             types: res.types
           }
-
-          console.log(res)
-          console.log(res.types)
-          console.log(this.pokemon)
-          
         },
         error: (err) => console.log(err)
       }

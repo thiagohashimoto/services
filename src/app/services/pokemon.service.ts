@@ -21,6 +21,6 @@ export class PokemonService {
                     .http
                     .get<PokemonData>
                     (`${this.baseURL}${pokemonName}`)
-    console.log(this.pokeData)
+    return(this.pokeData)
   }
 }
